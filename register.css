@@ -1,0 +1,49 @@
+.register{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius:8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.register >input{
+    border-radius:8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+}
+
+.register > .button{
+    background: blue;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.background {
+    background-image: url("/Users/jean-marc/Desktop/web/petshop1/petshop/src/photos/login-register_background.png");
+    background-size: cover;
+    height: 100vmin;
+    background-repeat: no-repeat;
+}
+.logo{
+    position: absolute;
+    left: 25%;
+    top: 1%;
+}
